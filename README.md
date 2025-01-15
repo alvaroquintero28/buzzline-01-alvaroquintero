@@ -1,4 +1,4 @@
-# buzzline-01-case
+# buzzline-01-alvaroquintero
 
 This project introduces streaming data. 
 The Python language includes generators - we'll use this feature to generate some streaming buzzline messages. 
@@ -34,7 +34,7 @@ For more information, See [PYTHON-VERSIONS.md](docs/PYTHON-VERSIONS.md).
 
 Once the tools are installed, copy/fork this project into your GitHub account
 and create your own version of this project to run and experiment with. 
-Name it **buzzline-01-yourname** where yourname is something unique to you.
+Name it **buzzline-01-alvaroquintero** where yourname is something unique to you.
 Follow the instructions in [FORK-THIS-REPO.md](docs/FORK-THIS-REPO.md).
 
 ## Task 3. Manage Local Project Virtual Environment
@@ -67,13 +67,13 @@ Windows PowerShell:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.basic_producer_case
+py -m producers.basic_producer_alvaro
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.basic_producer_case
+python3 -m producers.basic_producer_alvaro
 ```
 
 ## Task 5. Monitor an Active Log File (Terminal 2)
@@ -87,13 +87,13 @@ Use the commands below to activate .venv, and run the file as a module.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.basic_consumer_case.py
+py -m consumers.basic_consumer_alvaro
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.basic_consumer_case.py
+python3 -m consumers.basic_consumer_alvaro
 ```
 
 ## Save Space
